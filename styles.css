@@ -1,0 +1,193 @@
+body {
+    background-image: url('coding-926242_1280.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background-color: #914caf;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#titulo {
+    margin: 0;
+}
+
+#menu {
+    background-color: rgba(255, 255, 255, 0.9);
+    position: fixed;
+    top: 60px;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+#menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#menu li {
+    margin: 0;
+}
+
+#menu a {
+    display: block;
+    padding: 15px;
+    color: #914caf;
+    text-decoration: none;
+    text-align: center;
+}
+
+#menu a:hover {
+    background-color: #f5f5f5;
+}
+
+.contenido {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 8px;
+    margin: 80px 20px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sobre-mi, .estudios, .experiencia, .formulario-consulta, .contacto {
+    margin-bottom: 20px;
+}
+
+.sobre-mi {
+    margin-bottom: 20px;
+}
+
+.sobre-mi h2 {
+    font-size: 2em;
+}
+
+.sobre-mi-contenedor {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.sobre-mi p {
+    font-size: 1.2em;
+}
+
+.sobre-mi .imagen {
+    max-width: 150px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+    list-style: none;
+}
+
+.social-media li {
+    display: flex;
+    align-items: center;
+}
+
+.social-media a {
+    color: #914caf;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.social-media a img {
+    width: 24px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
+
+.tabla-experiencia {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.tabla-experiencia th, .tabla-experiencia td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.tabla-experiencia th {
+    background-color: #914caf;
+    color: white;
+}
+
+.tabla-experiencia tr:hover {
+    background-color: #f5f5f5;
+}
+
+.formulario-consulta form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario-consulta label {
+    margin: 10px 0 5px;
+}
+
+.formulario-consulta input, .formulario-consulta textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.formulario-consulta button {
+    background-color: #914caf;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.formulario-consulta button:hover {
+    background-color: #772d8a;
+}
+
+.contacto ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contacto li {
+    margin: 10px 0;
+}
+
+.contacto a {
+    color: #914caf;
+    text-decoration: none;
+}
+
+.contacto a:hover {
+    text-decoration: underline;
+}
